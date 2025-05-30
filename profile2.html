@@ -32,7 +32,7 @@
                     <img class="hacker-img" src="hack2.webp" alt="skryt foto">
                 </div>
                 <div class="mt-5">
-                    <h2 class="text-center mb-4">Add New Post</h2>
+                    <h2 class="text-center mb-4">Add New Post <?php $username1 = $_COOKIE['User1']; echo "$username1";?></h2>
                     <form action="profile.php" id="postForm" class="d-flex flex-column gap-3" method="POST" enctype="multipart/form-data">
                         <div class="form-group">
                             <label class="form-label" for="postTitle">Post Title</label>
